@@ -84,26 +84,12 @@
 
 
 
-<meta name="description" content="1 基础环境配置1.1 JDK安装版本选择对于MacOS来说，目前有两种JDK：
-
-苹果原生JDK：最高版本1.6
-Oracle的最新JDK：目前最高1.8
-
-我选择的是Oracle最新的1.8，安装包名字为’jdk-8u102-macosx-x64.dmg’，链接如下
-
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-do">
+<meta name="description" content="当前互联网上Intellij IDEA资料教程虽然不少，但比较全面的又很难找，这篇文章作为本人学习Java Web过程中踩坑的记录，详细介绍了Intellij IDEA使用Maven创建完整Java Web项目全过程，作为个人备忘，也好让大家不要踩同一个坑，文章会不断更新完善。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mac上Intellij IDEA使用Maven创建完整Java Web项目">
 <meta property="og:url" content="http://alexanderJin.com/2016/09/05/Mac上Intellij IDEA使用Maven创建完整Java Web项目/index.html">
 <meta property="og:site_name" content="AlexanderJin's Blog">
-<meta property="og:description" content="1 基础环境配置1.1 JDK安装版本选择对于MacOS来说，目前有两种JDK：
-
-苹果原生JDK：最高版本1.6
-Oracle的最新JDK：目前最高1.8
-
-我选择的是Oracle最新的1.8，安装包名字为’jdk-8u102-macosx-x64.dmg’，链接如下
-
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-do">
+<meta property="og:description" content="当前互联网上Intellij IDEA资料教程虽然不少，但比较全面的又很难找，这篇文章作为本人学习Java Web过程中踩坑的记录，详细介绍了Intellij IDEA使用Maven创建完整Java Web项目全过程，作为个人备忘，也好让大家不要踩同一个坑，文章会不断更新完善。">
 <meta property="og:image" content="http://od15e62y8.bkt.clouddn.com/tomcat_download.png">
 <meta property="og:image" content="http://od15e62y8.bkt.clouddn.com/maven_idea.png">
 <meta property="og:image" content="http://od15e62y8.bkt.clouddn.com/maven_idea2.png">
@@ -118,17 +104,10 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-do">
 <meta property="og:image" content="http://od15e62y8.bkt.clouddn.com/maven_idea8.png">
 <meta property="og:image" content="http://od15e62y8.bkt.clouddn.com/maven_idea9.png">
 <meta property="og:image" content="http://od15e62y8.bkt.clouddn.com/maven_idea10.png">
-<meta property="og:updated_time" content="2016-09-06T11:33:30.000Z">
+<meta property="og:updated_time" content="2016-09-06T12:58:48.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac上Intellij IDEA使用Maven创建完整Java Web项目">
-<meta name="twitter:description" content="1 基础环境配置1.1 JDK安装版本选择对于MacOS来说，目前有两种JDK：
-
-苹果原生JDK：最高版本1.6
-Oracle的最新JDK：目前最高1.8
-
-我选择的是Oracle最新的1.8，安装包名字为’jdk-8u102-macosx-x64.dmg’，链接如下
-
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-do">
+<meta name="twitter:description" content="当前互联网上Intellij IDEA资料教程虽然不少，但比较全面的又很难找，这篇文章作为本人学习Java Web过程中踩坑的记录，详细介绍了Intellij IDEA使用Maven创建完整Java Web项目全过程，作为个人备忘，也好让大家不要踩同一个坑，文章会不断更新完善。">
 <meta name="twitter:image" content="http://od15e62y8.bkt.clouddn.com/tomcat_download.png">
 
 
@@ -357,7 +336,9 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-do">
       
 
       
-        <h1 id="1-基础环境配置"><a href="#1-基础环境配置" class="headerlink" title="1 基础环境配置"></a>1 基础环境配置</h1><h2 id="1-1-JDK安装"><a href="#1-1-JDK安装" class="headerlink" title="1.1 JDK安装"></a>1.1 JDK安装</h2><h3 id="版本选择"><a href="#版本选择" class="headerlink" title="版本选择"></a>版本选择</h3><p>对于MacOS来说，目前有两种JDK：</p>
+        <p>当前互联网上Intellij IDEA资料教程虽然不少，但比较全面的又很难找，这篇文章作为本人学习Java Web过程中踩坑的记录，详细介绍了Intellij IDEA使用Maven创建完整Java Web项目全过程，作为个人备忘，也好让大家不要踩同一个坑，文章会不断更新完善。</p>
+<a id="more"></a>
+<h1 id="1-基础环境配置"><a href="#1-基础环境配置" class="headerlink" title="1 基础环境配置"></a>1 基础环境配置</h1><h2 id="1-1-JDK安装"><a href="#1-1-JDK安装" class="headerlink" title="1.1 JDK安装"></a>1.1 JDK安装</h2><h3 id="版本选择"><a href="#版本选择" class="headerlink" title="版本选择"></a>版本选择</h3><p>对于MacOS来说，目前有两种JDK：</p>
 <ul>
 <li>苹果原生JDK：最高版本1.6</li>
 <li>Oracle的最新JDK：目前最高1.8</li>
@@ -485,17 +466,13 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-do">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/06/13/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2016/09/05/Java Web项目中web.xml文件说明/" rel="next" title="Java Web项目中web.xml文件作用及其配置">
+                <i class="fa fa-chevron-left"></i> Java Web项目中web.xml文件作用及其配置
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/09/06/Java Web项目中web.xml文件说明/" rel="prev" title="">
-                 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -567,7 +544,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-do">
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -584,7 +561,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-do">
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
